@@ -1,0 +1,44 @@
+# Source files (not needed, only dist is needed)
+src/
+examples/
+docs/
+
+# Testing & development
+tests/
+coverage/
+.nyc_output/
+
+# Config files
+tsconfig.json
+.eslintrc
+.prettierrc
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Git
+.git
+.gitignore
+.github/
+
+# Development dependencies
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# CI
+.github/
+.travis.yml
+.circleci/
+
+# Misc
+README.md
+CHANGELOG.md
+LICENSE

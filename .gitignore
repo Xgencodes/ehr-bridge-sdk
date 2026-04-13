@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+yarn.lock
+package-lock.json
+
+# Build output
+dist/
+*.js
+*.d.ts
+*.js.map
+*.d.ts.map
+
+# Testing
+coverage/
+.nyc_output/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# npm
+.npm
+*.tgz
+
+# Build cache
+*.tsbuildinfo
